@@ -13,7 +13,7 @@ export function MovieList({movies, selectMovie, onLoadMore}) {
 	return (
 		<div className='container'>
 			{renderMovies()}
-			<button onClick={onLoadMore}>Load More</button>
+			<button classname="btn-load-more" onClick={onLoadMore}>Load More</button>
 		</div>
 	)
 }
